@@ -1,0 +1,162 @@
+*{
+    padding:0;
+    margin:0;
+}
+.main{
+    background-color: hsl(0, 0%, 100%);
+    width: 100vw;
+    height:100vh;
+    padding-left: 180px;
+    padding-right: 180px;    
+}
+.navbar{
+   display: flex;
+   height: 4vh;
+   width: 77vw;
+    /* padding-right:180px; */
+   padding-top: 45px;
+   padding-bottom:45px; 
+   border-bottom: solid 1px hsl(220, 14%, 75%);
+}
+.navbar > p{
+   font-size:16px; 
+   color: hsl(219, 9%, 45%);
+   font-family:"Kumbh Sans";
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-right: 50px;  
+}
+.logo{
+    transform: scale(0.75);
+    padding-right:30px;
+}
+.cart{
+    transform: scale(0.7);
+    padding-right: 50px;
+}
+.avatar{
+    transform: scale(1.8); 
+}
+.grid-container{
+    width: 71vw;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: repeat (1, 1fr);
+    /* gap: 5px; */
+    grid-template-areas: 
+    "i ii";
+    padding-left:50px ;
+    padding-right:50px ;
+    padding-top: 70px;
+}
+.grid-item{
+    grid-area:i;
+    width: 35vw;
+    padding-left: 50px;
+}
+.grid-item1{
+    grid-area:ii;
+    width: 30vw;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+.o{
+    font-weight: 700;
+    font-family:"Kumbh Sans";
+    color: hsl(26, 100%, 55%);
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.grid-item1 > h1{
+    font-family:"Kumbh Sans";
+    font-weight: 700;
+    padding-bottom: 30px;
+    font-size: 45px;
+}
+.description{
+    font-family:"Kumbh Sans";
+    font-weight: 400;
+    padding-bottom: 30px;
+    color: hsl(219, 9%, 45%);
+    font-size: 16px;
+}
+.price{ 
+    display:flex;
+    gap: 16px;
+    font-family:"Kumbh Sans";
+    padding-top: 15px;
+}
+.price > p{
+    background-color: hsl(25, 100%, 94%);
+    padding:8px;
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(26, 100%, 55%);
+    border-radius:8px;
+
+}   
+.dollar{
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(220, 14%, 75%);
+    padding-top: 10px;
+    padding-bottom:30px;
+
+}
+.main-product{
+    border-radius:15px;
+}
+.sneaker{
+    /* padding-top: 20px;
+    padding- */
+    display: flex;
+    justify-content: space-between;
+    width: 26vw;
+    padding-top: 20px;
+}
+.sneaker > img {
+    border-radius:15px;
+
+}
+.button {
+    display:flex;
+    gap: 20px;
+}
+.count{
+    display: flex;
+    width: 100px;
+    height:35px;
+    justify-content: center ;
+    padding-top: 5px;
+    /* padding: 10px 5px; */
+    background-color:hsl(223, 64%, 98%) ;
+    border-color: hsl(223, 64%, 98%);
+    border-radius:5px;
+}
+.count > p{
+    
+    font-weight: 700;
+    font-family: "Kumbh Sans";
+}
+.add{
+    width: 200px;
+    height:35px;
+    background-color: hsl(26, 100%, 55%);
+    color:hsl(0, 0%, 100%);
+    border-radius:5px;
+    border-color:hsl(26, 100%, 55%);
+    font-weight: 700;
+    font-family: "Kumbh Sans";
+    font-size:15px;
+    padding-bottom: 6px;
+    padding-top:3px;
+    
+
+}
+.shop{
+    /* transform: scale(0.7); */
+    color:hsl(0, 0%, 100%);
+    padding-right:10px;
+    
+}
